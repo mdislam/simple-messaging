@@ -1,0 +1,10 @@
+CREATE TABLE message (
+	id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, 
+        userId INT NOT NULL, 
+	message VARCHAR(1024) NOT NULL,
+	sent DATETIME NOT NULL,
+	FOREIGN KEY (userId) REFERENCES user(id)
+);
+
+--//@UNDO
+DROP TABLE message;
