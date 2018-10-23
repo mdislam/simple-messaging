@@ -19,7 +19,7 @@
 
 # How to change the port the application runs in:
 
-The port is specified in **docker-compose.yml:**
+By default the app is running in http://localhost:80. The port is specified in **docker-compose.yml:**
 
     services:
       web:
@@ -35,10 +35,10 @@ The first number is the port that is exposed to your system. If you for example 
 
 # How to use the application:
 
-The application is a simple chat server. By default you can connect to it by opening localhost in your browser of choice.
+The application is a simple chat server. By default you can connect to it by opening http://localhost:80 in your browser of choice.
 If you modified the application port, you must append that to the localhost "url". For example, if the above example modification was done, open following address in your browser:  
 
-    localhost:9876
+    http://localhost:9876
 
 Once you have opened the application in your browser, you are presented with a login screen with registration link ("Don't have an account yet?"). Click this link, and type in a user name and a password. You can then use these to log in to the application. Once logged in, you are presented with a simple chat room, where you can write messages. 
 
