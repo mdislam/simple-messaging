@@ -45,6 +45,8 @@ If you modified the application port, you must append that to the localhost "url
 
 Once you have opened the application in your browser, you are presented with a login screen with registration link ("Don't have an account yet?"). Click this link, and type in a user name and a password. You can then use these to log in to the application. Once logged in, you are presented with a simple chat room, where you can write messages. 
 
+If you want to check how multiple users communicate via this chat, then you need to open the application from different browser and log in using different user account. Send message from the browsers and you will see the communication among different users.
+
 # How to run the test suite:
 
 You can open shell inside the docker container by running the following command:
