@@ -15,7 +15,10 @@
     $ docker-compose down
 
 # How to shut down the server and erase the database:
-    $ docker compose down -v
+    $ docker-compose down -v
+
+# If you are interested about application logs of the running containers, then run following in another terminal::
+    $ docker-composer logs -f
 
 # How to change the port the application runs in:
 
