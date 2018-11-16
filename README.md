@@ -80,3 +80,8 @@ it outputs information on running containers, for example:
 ```
 
 the container id is for the image `assignment_web`, so 6cd048de5d86 in this case
+
+Answer 1) check the list of containers with "docker container ls" or "docker ps" commands
+-->2) take one  container name from the list replace with parameter <DOCKER_CONTAINER_ID> 
+--> 3) executed command docker exec -it  151ffafdf51e bin/bash (in windows)
+--> 4) after mvn test execution result is "mvn: command not found" as run in container for "image mysql:5.7"
