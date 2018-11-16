@@ -35,6 +35,10 @@ The first number is the port that is exposed to your system. If you for example 
       web:
         ports:
           - "9876:8080"
+          
+Answer: 1) update docker-compose.yml file with new port number 
+--> 2) If setup is started, container need to stop/remove
+--> 3) restart the one container         
 
 # How to use the application:
 
